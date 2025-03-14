@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    /* width: 80%;
+    margin: 0 auto; */
+    background-color: rgb(6, 2, 10);
+    color: white;
+    /* display: flex;
+    flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+}
+
+
+.head {   
+    margin-bottom: 40px;
+    background-color:  rgb(22, 15, 34);
+    width: 80%;
+    margin: 0 auto;
+    height: 200px;
+    padding: 10px;
+    box-shadow: 10px orangered;
+    border-radius: 10px;
+
+}
+
+button {
+    color: white;
+    background-color: orangered;
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    color: orangered;
+    font-family: sans-serif;
+}
+
+
+.middle {
+    margin: 20px;
+}
+
+h3 {
+    color: orangered;
+    /* text-align: left; */
+    margin-left: 300px;
+    margin: 10px;
+    text-decoration: underline;
+    font-family: sans-serif;
+}
+
+
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr); 
+    margin: 10px;
+    text-align: center;
+    gap: 10px;
+    justify-content: end;
+    
+}
+
+.firstcard {
+    height: 300px;
+    width: 400px;
+    background-color: rgb(22, 15, 34);
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    padding: 30px;
+    margin: 10px;
+    border-radius: 20px;
+    
+}
+
+
+.secondcard {
+    height: 300px;
+    width: 400px;
+    background-color:  rgb(22, 15, 34);
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    padding: 30px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+
+.thirdcard {
+    height: 300px;
+    width: 400px;
+    background-color: rgb(22, 15, 34);
+    justify-content: center;
+    /* text-align: center; */
+    padding: 30px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+
+.fourthcard {
+    height: 300px;
+    width: 400px;
+    background-color:  rgb(22, 15, 34);
+    justify-content: center;
+    /* text-align: center; */
+    padding: 30px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+
+.fifthcard {
+    height: 300px;
+    width: 400px;
+    background-color:  rgb(22, 15, 34);
+    justify-content: center;
+    /* text-align: center; */
+    padding: 30px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.name {
+    color: orangered;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+span {
+    color: white;
+    background-color: orangered;
+    padding: 2px;
+    border-radius: 10px;
+}
